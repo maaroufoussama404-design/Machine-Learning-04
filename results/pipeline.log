@@ -1,0 +1,11 @@
+2026-11-24 00:54:35,345 | INFO | Fetching Adult dataset from OpenML.
+2026-11-24 00:54:35,448 | INFO | INGESTION: 48842 rows, 15 columns
+2026-11-24 00:54:35,656 | INFO | Validation report saved.
+2026-11-24 00:54:35,656 | INFO | Missing '?' counts: {'workclass': 0, 'education': 0, 'marital-status': 0, 'occupation': 0, 'relationship': 0, 'race': 0, 'sex': 0, 'native-country': 0, 'income': 0}
+2026-11-24 00:54:35,656 | INFO | Range checks: {'age': {'count': 0, 'allowed': [17, 90], 'observed_min': 17, 'observed_max': 90}, 'hours-per-week': {'count': 0, 'allowed': [1, 99], 'observed_min': 1, 'observed_max': 99}, 'capital-gain': {'count': 0, 'allowed': [0, 99999], 'observed_min': 0, 'observed_max': 99999}, 'capital-loss': {'count': 0, 'allowed': [0, 4356], 'observed_min': 0, 'observed_max': 4356}}
+2026-11-24 00:54:35,852 | INFO | Training duplicates removed: 24
+2026-11-24 00:54:35,852 | INFO | Test rows retained unchanged: 14653
+2026-11-24 00:54:35,853 | INFO | Training Logistic Regression: without_engineered_features
+2026-11-24 00:54:36,373 | INFO | without_engineered_features: accuracy=0.8540, F1=0.6601
+2026-11-24 00:54:36,373 | INFO | Training Logistic Regression: with_engineered_features
+2026-11-24 00:54:36,904 | INFO | with_engineered_features: accuracy=0.8578, F1=0.6696
